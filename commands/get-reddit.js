@@ -37,7 +37,7 @@ module.exports = {
                 .setColor("#F3450F")
                 .setDescription(`Here you go ${ interaction.user }`)
                 .setTitle(`${ post_title }`)
-                .setDescription(`Link: [${ post_permalink }](https://www.reddit.com/${ post_permalink })\n\n${ trim(post_selftext, 1024) }`)
+                .setDescription(`Link: [${ post_permalink }](https://www.reddit.com${ post_permalink })\n\n${ trim(post_selftext, 1024) }`)
                 .setImage(`${ post_url }`)
                 .setFooter(`This post is from r/${ subreddit }`)
             interaction.editReply({ embeds: [embed] });
@@ -46,7 +46,7 @@ module.exports = {
             const embed = new MessageEmbed()
                 .setColor("#F3450F")
                 .setTitle(`${ post_title }`)
-                .setDescription(`Link: [${ post_permalink }](https://www.reddit.com/${ post_permalink })\n\n${ trim(post_selftext, 1024) }`)
+                .setDescription(`Link: [${ post_permalink }](https://www.reddit.com${ post_permalink })\n\n${ trim(post_selftext, 1024) }`)
                 .setFooter(`This post is from r/${ subreddit }`)
             interaction.editReply({ embeds: [embed] });
         }
