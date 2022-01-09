@@ -2,7 +2,7 @@
 
 This is a basic discord bot written for a personal server using Node.js and [Discord.js](https://discord.js.org/#/).
 
-The bot uses slash commands (type / into the discord chat to start it). These commands allow users to add or delete roles, get random dog/cat images, and pull random posts a specified subreddit.
+The bot uses slash commands (type / into the discord chat to start it). These commands allow users to add or delete roles, get random dog/cat images, and pull random posts (text or images only) from a specified subreddit.
 
 Usage is as follows:
 `/rw-ping`:                 Gets a response from the bot
