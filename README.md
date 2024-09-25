@@ -14,3 +14,4 @@ Usage is as follows:
 * `/rw-getreddit <subreddit>` Gets a random post from the 'hot' category of the subreddit (_does not check if NSFW_)
 
 *Note: This is an ongoing project and will probably be slowly added to overtime (assuming my server members think of more to request)
+Wow I know how to use vim I'm even gonna quit it and save too
