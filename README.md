@@ -12,5 +12,3 @@ Usage is as follows:
 * `/rw-getdog`:               Gets a random dog image from dog.ceo
 * `/rw-getcat`:               Gets a random cat image from aws.random.cat
 * `/rw-getreddit <subreddit>` Gets a random post from the 'hot' category of the subreddit (_does not check if NSFW_)
-
-*Note: This is an ongoing project and will probably be slowly added to overtime (assuming my server members think of more to request)
